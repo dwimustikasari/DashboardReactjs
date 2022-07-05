@@ -1,26 +1,24 @@
 import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import './App.css';
-import Carousel_test from './components/Carousel_test';
-import Navbar from './components/Navbar';
-import Slideshow from './components/Slideshow';
-import FlexBox from './components/FlexBox';
+import Dashboard from './Dashboard';
 
 function App() {
   return (
-    <div>
-      <div>
-      <Navbar/>
-      </div>
-      <div>
-        <Slideshow/>
-      </div>
-      <div className='container-slider'>
-        <Carousel_test/>
-      </div>
-      <div>
-        <FlexBox/>
-      </div>
-    </div>
+    <Router>
+          <Dashboard/>
+          <Switch>
+            <Route path='/profile'>
+              <
+            </Route>
+          </Switch>
+    </Router>
+
   );
 }
 
