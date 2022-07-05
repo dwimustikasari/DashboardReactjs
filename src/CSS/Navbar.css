@@ -1,0 +1,44 @@
+.flex-container {
+    flex: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-content: flex-end;
+  }
+  .flex-contain{
+    display: flex;
+    flex: 100%;
+    align-items: center;
+    background-color:white;
+    border-bottom-style: solid;
+  }
+
+  .button-navbar {
+    flex: 100%;
+    margin-right: 5px;
+    color: #037682;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  
+  .Search-navbar{
+    width: 70%;
+  }
+  .flex-container-three{
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media (min-width: 600px) {
+    .flex-container-one{
+        flex: 10%;
+     }
+     .flex-container-two{
+        flex: 50%;
+     }
+     .flex-container-three{
+        flex: 5%;
+     }
+  }
