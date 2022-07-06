@@ -1,22 +1,25 @@
 import logo from './logo.svg';
+import ReactDOM from "react-dom";
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
-  Link
-} from "react-router-dom";
+  Link, 
+  useRouteMatch,
+  useParams
+}from 'react-router-dom';
 import './App.css';
 import Dashboard from './Dashboard';
+import Profile from './Profile';
 
 function App() {
   return (
     <Router>
           <Dashboard/>
-          <Switch>
-            <Route path='/profile'>
-              <
+          <Routes>
+          <Route exact path='/profile' element={<Profile/>} >
             </Route>
-          </Switch>
+          </Routes>
     </Router>
 
   );

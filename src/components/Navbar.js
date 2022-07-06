@@ -1,6 +1,17 @@
 import React from 'react';
 import "../CSS/Navbar.css";
 import image1 from '../Image/Logo.png';
+import ReactDOM from "react-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+}from 'react-router-dom';
+import Profile from '../Profile';
+
 
 function Navbar() {
   return (
@@ -17,7 +28,7 @@ function Navbar() {
     <input class="Search-navbar" type="search" placeholder="Search" aria-label="Search" id='search'/>
     </div>
     <div class="flex-container-three">
-    <a id='home' href='#' class='button-navbar' >Home  </a>
+    <a id='home' href='/profile' class='button-navbar' >Home  </a>
     <a id='profile' href='#' class='button-navbar'>Profile  </a>
     <a id='logout' href='#' class='button-navbar'>Logout  </a>
     </div>       
