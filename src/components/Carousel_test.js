@@ -17,11 +17,43 @@ function Carousel_test() {
     slidesToShow : 3,
     slidesToScroll : 1,
     cssEase : "linear",
-    valueLabelDisplay:"auto"
+    valueLabelDisplay:"auto", 
   }
   return (
     <Slider {...settings}>
        <div className='card-wrapper'>
+            <div className='card'>
+              <div className='card-image'>
+                <img src={image1} className="image-carousel" />
+              </div>
+              <ul class="social-icon">
+                <li>
+                  <a href='#'>
+                  <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                  <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                  <i class="fa-brands fa-dribbble"></i>
+                  </a>
+                </li>              
+              </ul>
+              <div className='details'>
+                <h2>Dwi Mustikasari<span class="job-tittle">UI Developer</span></h2>
+              </div>
+            </div>
+          </div>
+          <div className='card-wrapper'>
             <div className='card'>
               <div className='card-image'>
                 <img src={image2} className="image-carousel" />
@@ -29,22 +61,22 @@ function Carousel_test() {
               <ul class="social-icon">
                 <li>
                   <a href='#'>
-                    <i className='fa fa-facebook'></i>
+                  <i class="fa-brands fa-facebook"></i>
                   </a>
                 </li>
                 <li>
                   <a href='#'>
-                    <i className='fa fa-instagram'></i>
+                  <i class="fa-brands fa-instagram"></i>
                   </a>
                 </li>
                 <li>
                   <a href='#'>
-                    <i className='fa fa-twitter'></i>
+                    <i class="fa-brands fa-twitter"></i>
                   </a>
                 </li>
                 <li>
                   <a href='#'>
-                    <i className='fa fa-dribbble'></i>
+                  <i class="fa-brands fa-dribbble"></i>
                   </a>
                 </li>              
               </ul>
@@ -61,22 +93,22 @@ function Carousel_test() {
               <ul class="social-icon">
                 <li>
                   <a href='#'>
-                    <i className='fa fa-facebook'></i>
+                  <i class="fa-brands fa-facebook"></i>
                   </a>
                 </li>
                 <li>
                   <a href='#'>
-                    <i className='fa fa-instagram'></i>
+                  <i class="fa-brands fa-instagram"></i>
                   </a>
                 </li>
                 <li>
                   <a href='#'>
-                    <i className='fa fa-twitter'></i>
+                    <i class="fa-brands fa-twitter"></i>
                   </a>
                 </li>
                 <li>
                   <a href='#'>
-                    <i className='fa fa-dribbble'></i>
+                  <i class="fa-brands fa-dribbble"></i>
                   </a>
                 </li>              
               </ul>
@@ -93,54 +125,22 @@ function Carousel_test() {
               <ul class="social-icon">
                 <li>
                   <a href='#'>
-                    <i className='fa fa-facebook'></i>
+                  <i class="fa-brands fa-facebook"></i>
                   </a>
                 </li>
                 <li>
                   <a href='#'>
-                    <i className='fa fa-instagram'></i>
+                  <i class="fa-brands fa-instagram"></i>
                   </a>
                 </li>
                 <li>
                   <a href='#'>
-                    <i className='fa fa-twitter'></i>
+                    <i class="fa-brands fa-twitter"></i>
                   </a>
                 </li>
                 <li>
                   <a href='#'>
-                    <i className='fa fa-dribbble'></i>
-                  </a>
-                </li>              
-              </ul>
-              <div className='details'>
-                <h2>Dwi Mustikasari<span class="job-tittle">UI Developer</span></h2>
-              </div>
-            </div>
-          </div>
-          <div className='card-wrapper'>
-            <div className='card'>
-              <div className='card-image'>
-                <img src={image1} className="image-carousel" />
-              </div>
-              <ul class="social-icon">
-                <li>
-                  <a href='#'>
-                    <i className='fa fa-facebook'></i>
-                  </a>
-                </li>
-                <li>
-                  <a href='#'>
-                    <i className='fa fa-instagram'></i>
-                  </a>
-                </li>
-                <li>
-                  <a href='#'>
-                    <i className='fa fa-twitter'></i>
-                  </a>
-                </li>
-                <li>
-                  <a href='#'>
-                    <i className='fa fa-dribbble'></i>
+                  <i class="fa-brands fa-dribbble"></i>
                   </a>
                 </li>              
               </ul>

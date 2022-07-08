@@ -9,18 +9,12 @@ import {
   useParams
 }from 'react-router-dom';
 import './App.css';
-import Dashboard from './Dashboard';
-import Profile from './Profile';
+import Dashboard from './Page/Dashboard';
+import Profile from './Page/Profile';
 
 function App() {
   return (
-    <Router>
-          <Dashboard/>
-          <Routes>
-          <Route exact path='/profile' element={<Profile/>} >
-            </Route>
-          </Routes>
-    </Router>
+    <Dashboard/>
 
   );
 }
