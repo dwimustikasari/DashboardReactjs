@@ -1,15 +1,13 @@
-import React from 'react';
-import { Button } from '../components/Button';
-import Sidebar from '../components/Sidebar';
-import Sidebar2 from '../components/SIdebar2';
+import React from 'react'
+import Navbar from '../components/Navbar'
 
 function Profile() {
   return (
     <div>
-      <Sidebar/>
-      <Sidebar2/>
-    </div>
+      <Navbar/>
+      <div>isi</div>
+      </div>
   )
 }
- 
+
 export default Profile
