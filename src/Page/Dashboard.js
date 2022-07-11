@@ -13,7 +13,7 @@ function Dashboard() {
       <div>
         <Navbar/>
       </div>
-      <div className={isMenuClicked ? 'Component Active' : 'component'}>
+      <div >
         <div >
           <Slideshow/>
         </div>

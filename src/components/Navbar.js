@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import '../CSS/Navbar.css';
+import {Link} from "react-router-dom";
 const Navbar = () => {
   const [Burger_class, setBurgerClass] = useState("burger-bar unclicked")
   const [menu_class, setMenuClass] = useState("menu hidden")
@@ -32,8 +33,8 @@ const Navbar = () => {
       </nav>
       <div className={menu_class}>
         <div className="toolbars-item">
-        <li className='toolBars'> Home</li>
-        <li className='toolBars'>Services</li>
+        <li className='toolBars'><Link className="link-items" to="/">Home</Link></li>
+        <li className='toolBars'><Link className="link-items" to="/profile">Profile</Link></li>
         <li className='toolBars'>Product</li>
         <li className='toolBars'>Contact Us</li>
         <li className='toolBars'>About Us</li>
